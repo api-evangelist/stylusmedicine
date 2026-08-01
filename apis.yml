@@ -1,8 +1,24 @@
 aid: stylusmedicine
-name: Stylusmedicine
-description: Stylusmedicine is a company surfaced as a portfolio company of khosla-ventures and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stylusmedicine.png
+name: Stylus Medicine
+description: Stylus Medicine is a Cambridge, Massachusetts biotechnology company developing
+  in vivo genetic medicines built on engineered recombinases. Its platform aims to generate
+  precise, durable CAR-T cells directly inside the body using cell-targeted lipid nanoparticle
+  delivery to immune cells, with therapeutic programs spanning oncology, autoimmune disease,
+  and genetic disorders. The company is a portfolio company of Khosla Ventures. It operates
+  as a research-stage therapeutics company and does not currently publish a public developer
+  API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/stylusmedicine/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Genetic Medicine
+- CAR-T
+- Cell Therapy
+- Oncology
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/stylusmedicine-domain-security.yml
 - type: Website
   url: https://www.stylusmedicine.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
