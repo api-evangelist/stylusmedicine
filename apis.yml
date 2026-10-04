@@ -44,7 +44,7 @@ tags:
 - Company
 - Biotechnology
 - Genetic Medicine
-- Cart
+- CAR-T
 - Cell Therapy
 - Oncology
 - Life Sciences
@@ -72,3 +72,5 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-tags-removed:
+- Cart
